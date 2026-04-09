@@ -1,92 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Main Page -->
   <url>
-    <loc>https://landingku.com/</loc>
-    <lastmod>2026-03-20</lastmod>
+    <loc>https://landingku.mutatit.com/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
+
+  <!-- Demo Pages -->
   <url>
-    <loc>https://landingku.com/demo/demo-bakery/</loc>
+    <loc>https://landingku.mutatit.com/demos/d_9d2dcac710c8/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://landingku.com/demo/demo-barbershop/</loc>
+    <loc>https://landingku.mutatit.com/demos/d_a529b32d1385/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://landingku.com/demo/demo-bisnis/</loc>
+    <loc>https://landingku.mutatit.com/demos/d_2b2adee682fe/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://landingku.com/demo/demo-cake/</loc>
+    <loc>https://landingku.mutatit.com/demos/d_e9449e5f3d3a/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://landingku.com/demo/demo-coworking/</loc>
+    <loc>https://landingku.mutatit.com/demos/d_5131d7c0159d/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://landingku.com/demo/demo-dessert/</loc>
-    <priority>0.80</priority>
+    <loc>https://landingku.mutatit.com/demo/demo-bakery/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://landingku.com/demo/demo-edukasi/</loc>
-    <priority>0.80</priority>
+    <loc>https://landingku.mutatit.com/demo/demo-barbershop/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://landingku.com/demo/demo-event/</loc>
-    <priority>0.80</priority>
+    <loc>https://landingku.mutatit.com/demo/demo-bisnis/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://landingku.com/demo/demo-fashion/</loc>
-    <priority>0.80</priority>
+    <loc>https://landingku.mutatit.com/demo/demo-cake/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://landingku.com/demo/demo-grill/</loc>
-    <priority>0.80</priority>
+    <loc>https://landingku.mutatit.com/demo/demo-coworking/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://landingku.com/demo/demo-jasa/</loc>
-    <priority>0.80</priority>
+    <loc>https://landingku.mutatit.com/demo/demo-dessert/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://landingku.com/demo/demo-keuangan/</loc>
-    <priority>0.80</priority>
+    <loc>https://landingku.mutatit.com/demo/demo-edukasi/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://landingku.com/demo/demo-klinik/</loc>
-    <priority>0.80</priority>
+    <loc>https://landingku.mutatit.com/demo/demo-event/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://landingku.com/demo/demo-otomotif/</loc>
-    <priority>0.80</priority>
+    <loc>https://landingku.mutatit.com/demo/demo-fashion/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://landingku.com/demo/demo-pertanian/</loc>
-    <priority>0.80</priority>
+    <loc>https://landingku.mutatit.com/demo/demo-grill/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://landingku.com/demo/demo-properti/</loc>
-    <priority>0.80</priority>
+    <loc>https://landingku.mutatit.com/demo/demo-jasa/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://landingku.com/demo/demo-ramen/</loc>
-    <priority>0.80</priority>
+    <loc>https://landingku.mutatit.com/demo/demo-keuangan/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://landingku.com/demo/demo-restoran/</loc>
-    <priority>0.80</priority>
+    <loc>https://landingku.mutatit.com/demo/demo-klinik/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://landingku.com/demo/demo-sushi/</loc>
-    <priority>0.80</priority>
+    <loc>https://landingku.mutatit.com/demo/demo-otomotif/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://landingku.com/demo/demo-teknologi/</loc>
-    <priority>0.80</priority>
+    <loc>https://landingku.mutatit.com/demo/demo-pertanian/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://landingku.com/demo/demo-travel/</loc>
-    <priority>0.80</priority>
+    <loc>https://landingku.mutatit.com/demo/demo-properti/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
+  <url>
+    <loc>https://landingku.mutatit.com/demo/demo-ramen/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://landingku.mutatit.com/demo/demo-restoran/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://landingku.mutatit.com/demo/demo-sushi/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://landingku.mutatit.com/demo/demo-teknologi/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://landingku.mutatit.com/demo/demo-travel/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
 </urlset>

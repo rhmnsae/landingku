@@ -1,4 +1,10 @@
 User-agent: *
 Allow: /
+Disallow: /node_modules/
+Disallow: /*.js$
 
-Sitemap: https://landingku.com/sitemap.xml
+# Allow important JS files to be crawled for JS rendering
+Allow: /assets/js/
+Allow: /assets/css/
+
+Sitemap: https://landingku.mutatit.com/sitemap.xml
