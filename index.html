@@ -82,9 +82,9 @@
           "height": 512
         },
         "image": "https://landingku.mutatit.com/assets/mutatit2.svg",
-        "description": "Jasa pembuatan landing page profesional di Indonesia. Desain rapi, cepat, responsif, & SEO friendly. Promo mulai 99rb!",
+        "description": "Jasa pembuatan landing page profesional di Indonesia. Desain rapi, cepat, responsif, & SEO friendly. Free revisi tanpa batas!",
         "telephone": "+628977279290",
-        "priceRange": "Rp99.000 - Rp650.000",
+        "priceRange": "Rp300.000 - Rp900.000",
         "currenciesAccepted": "IDR",
         "paymentAccepted": "Transfer Bank, QRIS",
         "areaServed": {
@@ -116,25 +116,25 @@
           "itemListElement": [
             {
               "@type": "Offer",
-              "name": "Paket A - Dasar (Template)",
-              "description": "Desain simpel pakai template, tampilan bagus di HP & PC, maksimal 1x revisi, 1 halaman, selesai 1-3 hari",
-              "price": "99000",
+              "name": "Paket A - Basic (Template)",
+              "description": "Desain simpel pakai template, tampilan bagus di HP & PC, free revisi tanpa batas, 1 halaman, selesai 1-3 hari",
+              "price": "300000",
               "priceCurrency": "IDR",
               "availability": "https://schema.org/InStock"
             },
             {
               "@type": "Offer",
-              "name": "Paket B - Standar (Semi Custom)",
-              "description": "Desain disesuaikan merek, animasi menarik, revisi 2x, maksimal 3 halaman, selesai 3-5 hari",
-              "price": "250000",
+              "name": "Paket B - Custom (Semi Custom)",
+              "description": "Desain disesuaikan merek, animasi menarik, free revisi tanpa batas, maksimal 3 halaman, selesai 3-5 hari",
+              "price": "500000",
               "priceCurrency": "IDR",
               "availability": "https://schema.org/InStock"
             },
             {
               "@type": "Offer",
-              "name": "Paket C - Premium (Full Custom)",
-              "description": "Desain bebas dari nol, fitur canggih, revisi 4x, maksimal 7 halaman, selesai 5-7 hari",
-              "price": "650000",
+              "name": "Paket C - Full Custom",
+              "description": "Desain bebas dari nol, fitur canggih, free revisi tanpa batas, maksimal 7 halaman, selesai 5-7 hari",
+              "price": "900000",
               "priceCurrency": "IDR",
               "availability": "https://schema.org/InStock"
             }
@@ -183,10 +183,10 @@
           },
           {
             "@type": "Question",
-            "name": "Berapa biaya revisi tambahan?",
+            "name": "Apakah revisi gratis?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Revisi di luar lingkup awal atau melebihi batas paket dikenakan biaya Rp30.000 per revisi. Halaman tambahan mulai dari Rp60.000 per halaman."
+              "text": "Ya! Semua paket sudah termasuk FREE REVISI tanpa batas. Anda bisa meminta revisi sebanyak yang diperlukan tanpa biaya tambahan."
             }
           }
         ]
@@ -197,10 +197,9 @@
 
   <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-  <script src="assets/js/protection.js" defer></script>
 </head>
 
-<body oncontextmenu="return false;" onselectstart="return false;">
+<body>
 
   <!-- NAVBAR -->
   <nav class="navbar" id="navbar">
@@ -341,95 +340,101 @@
       <div class="pricing-grid">
         <!-- Paket Dasar -->
         <div class="wf-box price-card reveal" style="background:var(--bg); color:var(--text);">
-          <div class="discount-badge" data-t="price_a_discount">DISKON 60%</div>
-          <div class="price-tag" data-t="price_a_tag">PAKET A - DASAR</div>
-          <h3 class="price-title" data-t="price_a_title">Template</h3>
+          <div class="discount-badge" data-t="price_a_discount">DISKON 40%</div>
+          <div class="price-tag" data-t="price_a_tag">PAKET BASIC</div>
+          <h3 class="price-title" data-t="price_a_title">Basic</h3>
           <div
             style="font-family:'Space Grotesk',monospace;font-size:0.95rem;font-weight:600;color:#ef4444;text-decoration:line-through;margin-bottom:2px;letter-spacing:0.02em;"
-            id="cross_a">250K+</div>
-          <div class="price-amount" id="amount_a">99K+</div>
+            id="cross_a">500K+</div>
+          <div class="price-amount" id="amount_a">300K+</div>
           <div class="price-note" data-t="price_note_idr">Harga perkiraan awal (Bisa disesuaikan)</div>
           <ul class="price-features">
             <li data-t="price_a_f1">Desain simpel pakai template</li>
             <li data-t="price_a_f2">Tampilan bagus di HP & PC</li>
-            <li data-t="price_a_f3">Maksimal 1x revisi ringan</li>
+            <li data-t="price_a_f3">FREE revisi tidak ada batas</li>
             <li data-t="price_a_f4">Hanya untuk 1 halaman</li>
             <li data-t="price_a_f5">Selesai dalam 1-3 hari</li>
+            <li data-t="price_a_f6">SEO dasar (Setup Title, Meta, dll)</li>
           </ul>
           <div
             style="font-size:0.7rem; font-weight:700; margin:16px 0 8px; letter-spacing:0px; color:var(--text-muted);"
-            data-t="price_bundle_label">+ BUNDLING (DISKON SETUP HOSTING):</div>
-          <a href="javascript:void(0)" onclick="toggleBundle('a', 99, 50, this)" class="btn btn-bundle"
+            data-t="price_bundle_label">+ BUNDLING (DISKON SETUP HOSTING + DOMAIN):</div>
+          <a href="javascript:void(0)" onclick="toggleBundle('a', 300, 100, this)" class="btn btn-bundle"
             style="font-size:0.75rem; padding:8px; margin-bottom:8px; display:block; background:transparent; color:#dc2626; border:2px solid #dc2626;"
-            data-t="price_a_cta_random">+ Domain Perusahaan (<s>80K</s> 50K)</a>
-          <a href="javascript:void(0)" onclick="toggleBundle('a', 99, 350, this)" class="btn btn-bundle"
-            style="font-size:0.75rem; padding:8px; display:block; margin-bottom:16px; background:transparent; color:#dc2626; border:2px solid #dc2626;"
-            data-t="price_a_cta_custom">+ Domain .com/.id/.net (350K)</a>
-          <a href="#kontak" class="btn btn-outline" data-t="price_a_cta">Ambil Paket A</a>
+            data-t="price_a_cta_random">+ Domain Perusahaan (<s>150K</s> 100K)</a>
+          <a href="javascript:void(0)" onclick="toggleBundle('a', 300, 400, this)" class="btn btn-bundle"
+            style="font-size:0.75rem; padding:8px; display:block; margin-bottom:8px; background:transparent; color:#dc2626; border:2px solid #dc2626;"
+            data-t="price_a_cta_custom">+ Domain .com/.id/.net (400K)</a>
+          <div style="font-size:0.65rem; font-style:italic; margin-bottom:16px; color:var(--text-muted); text-align:center;" data-t="price_bundle_note">*Hanya biaya setup awal, gratis hosting 3 bulan</div>
+          <a href="#kontak" class="btn btn-outline" data-t="price_a_cta">Ambil Paket Basic</a>
         </div>
 
         <!-- Paket Standar -->
         <div class="wf-box price-card featured reveal" style="transition-delay:0.1s; position:relative;">
-          <div class="discount-badge" data-t="price_b_discount">DISKON 44%</div>
+          <div class="discount-badge" data-t="price_b_discount">DISKON 50%</div>
           <div
             style="position:absolute; top:-16px; left:50%; transform:translateX(-50%); background:var(--text); color:var(--accent); font-family:'Space Grotesk',monospace; font-size:0.8rem; font-weight:700; padding:4px 16px; border:2px solid var(--border); box-shadow:4px 4px 0 var(--border); white-space:nowrap; z-index:10;"
             data-t="price_featured_label">
             [ REKOMENDASI ]</div>
-          <div class="price-tag" style="color: #000;" data-t="price_b_tag">PAKET B - STANDAR</div>
+          <div class="price-tag" style="color: #000;" data-t="price_b_tag">PAKET SEMI CUSTOM</div>
           <h3 class="price-title" data-t="price_b_title">Semi Custom</h3>
           <div
             style="font-family:'Space Grotesk',monospace;font-size:0.95rem;font-weight:600;color:#dc2626;text-decoration:line-through;margin-bottom:2px;letter-spacing:0.02em;"
-            id="cross_b">450K+</div>
-          <div class="price-amount" id="amount_b">250K+</div>
+            id="cross_b">1000K+</div>
+          <div class="price-amount" id="amount_b">500K+</div>
           <div class="price-note" data-t="price_b_note">Harga tergantung tingkat kesulitan</div>
           <ul class="price-features">
             <li data-t="price_b_f1">Desain disesuaikan dengan merekmu</li>
             <li data-t="price_b_f2">Ada tambahan animasi menarik</li>
-            <li data-t="price_b_f3">Maksimal revisi 2 kali</li>
+            <li data-t="price_b_f3">FREE revisi tidak ada batas</li>
             <li data-t="price_b_f4">Maksimal untuk 3 halaman</li>
             <li data-t="price_b_f5">Selesai dalam 3-5 hari</li>
+            <li data-t="price_b_f6">SEO dasar (Setup Title, Meta, dll)</li>
           </ul>
           <div
             style="font-size:0.7rem; font-weight:700; margin:16px 0 8px; letter-spacing:0px; color:var(--text-muted);"
-            data-t="price_bundle_label">+ BUNDLING (DISKON SETUP HOSTING):</div>
-          <a href="javascript:void(0)" onclick="toggleBundle('b', 250, 50, this)" class="btn btn-bundle"
+            data-t="price_bundle_label">+ BUNDLING (DISKON SETUP HOSTING + DOMAIN):</div>
+          <a href="javascript:void(0)" onclick="toggleBundle('b', 500, 80, this)" class="btn btn-bundle"
             style="font-size:0.75rem; padding:8px; margin-bottom:8px; display:block; background:transparent; color:#dc2626; border:2px solid #dc2626;"
-            data-t="price_b_cta_random">+ Domain Perusahaan (<s>80K</s> 50K)</a>
-          <a href="javascript:void(0)" onclick="toggleBundle('b', 250, 320, this)" class="btn btn-bundle"
-            style="font-size:0.75rem; padding:8px; display:block; margin-bottom:16px; background:transparent; color:#dc2626; border:2px solid #dc2626;"
-            data-t="price_b_cta_custom">+ Domain .com/.id/.net (<s style='opacity:0.6;font-size:0.9em;'>350K</s>
-            320K)</a>
-          <a href="#kontak" class="btn btn-dark" data-t="price_b_cta">Ambil Paket B</a>
+            data-t="price_b_cta_random">+ Domain Perusahaan (<s>150K</s> 80K)</a>
+          <a href="javascript:void(0)" onclick="toggleBundle('b', 500, 350, this)" class="btn btn-bundle"
+            style="font-size:0.75rem; padding:8px; display:block; margin-bottom:8px; background:transparent; color:#dc2626; border:2px solid #dc2626;"
+            data-t="price_b_cta_custom">+ Domain .com/.id/.net (<s style='opacity:0.6;font-size:0.9em;'>400K</s>
+            350K)</a>
+          <div style="font-size:0.65rem; font-style:italic; margin-bottom:16px; color:var(--text-muted); text-align:center;" data-t="price_bundle_note">*Hanya biaya setup awal, gratis hosting 3 bulan</div>
+          <a href="#kontak" class="btn btn-dark" data-t="price_b_cta">Ambil Paket Semi Custom</a>
         </div>
 
         <!-- Paket Premium -->
         <div class="wf-box price-card reveal" style="background:var(--bg); color:var(--text); transition-delay:0.2s">
-          <div class="discount-badge" data-t="price_c_discount">DISKON 28%</div>
-          <div class="price-tag" data-t="price_c_tag">PAKET C - PREMIUM</div>
+          <div class="discount-badge" data-t="price_c_discount">DISKON 40%</div>
+          <div class="price-tag" data-t="price_c_tag">PAKET FULL CUSTOM</div>
           <h3 class="price-title" data-t="price_c_title">Full Custom</h3>
           <div
             style="font-family:'Space Grotesk',monospace;font-size:0.95rem;font-weight:600;color:#ef4444;text-decoration:line-through;margin-bottom:2px;letter-spacing:0.02em;"
-            id="cross_c">900K+</div>
-          <div class="price-amount" id="amount_c">650K+</div>
+            id="cross_c">1500K+</div>
+          <div class="price-amount" id="amount_c">900K+</div>
           <div class="price-note" data-t="price_c_note">Harga desain dibuat khusus dari nol</div>
           <ul class="price-features">
             <li data-t="price_c_f1">Desain bebas sesuai keinginan Anda</li>
             <li data-t="price_c_f2">Fitur dan interaksi lebih canggih</li>
-            <li data-t="price_c_f3">Maksimal revisi 4 kali</li>
+            <li data-t="price_c_f3">FREE revisi tidak ada batas</li>
             <li data-t="price_c_f4">Maksimal untuk 7 halaman</li>
             <li data-t="price_c_f5">Selesai dalam 5-7 hari</li>
+            <li data-t="price_c_f6">SEO dasar (Setup Title, Meta, dll)</li>
           </ul>
           <div
             style="font-size:0.7rem; font-weight:700; margin:16px 0 8px; letter-spacing:0px; color:var(--text-muted);"
-            data-t="price_bundle_label">+ BUNDLING (DISKON SETUP HOSTING):</div>
-          <a href="javascript:void(0)" onclick="toggleBundle('c', 650, 50, this)" class="btn btn-bundle"
+            data-t="price_bundle_label">+ BUNDLING (DISKON SETUP HOSTING + DOMAIN):</div>
+          <a href="javascript:void(0)" onclick="toggleBundle('c', 900, 50, this)" class="btn btn-bundle"
             style="font-size:0.75rem; padding:8px; margin-bottom:8px; display:block; background:transparent; color:#dc2626; border:2px solid #dc2626;"
-            data-t="price_c_cta_random">+ Domain Perusahaan (<s>80K</s> 50K)</a>
-          <a href="javascript:void(0)" onclick="toggleBundle('c', 650, 300, this)" class="btn btn-bundle"
-            style="font-size:0.75rem; padding:8px; display:block; margin-bottom:16px; background:transparent; color:#dc2626; border:2px solid #dc2626;"
-            data-t="price_c_cta_custom">+ Domain .com/.id/.net (<s style='opacity:0.6;font-size:0.9em;'>350K</s>
+            data-t="price_c_cta_random">+ Domain Perusahaan (<s>150K</s> 50K)</a>
+          <a href="javascript:void(0)" onclick="toggleBundle('c', 900, 300, this)" class="btn btn-bundle"
+            style="font-size:0.75rem; padding:8px; display:block; margin-bottom:8px; background:transparent; color:#dc2626; border:2px solid #dc2626;"
+            data-t="price_c_cta_custom">+ Domain .com/.id/.net (<s style='opacity:0.6;font-size:0.9em;'>400K</s>
             300K)</a>
-          <a href="#kontak" class="btn btn-outline" data-t="price_c_cta">Ambil Paket C</a>
+          <div style="font-size:0.65rem; font-style:italic; margin-bottom:16px; color:var(--text-muted); text-align:center;" data-t="price_bundle_note">*Hanya biaya setup awal, gratis hosting 3 bulan</div>
+          <a href="#kontak" class="btn btn-outline" data-t="price_c_cta">Ambil Paket Full Custom</a>
         </div>
 
         <!-- Perbaikan Website (Coming Soon) -->
@@ -494,29 +499,7 @@
         <h2 class="sec-title" data-t="sec_pricing_title">MATRIKS <span class="hl-yellow">HARGA</span></h2>
       </div>
 
-      <div class="wf-box reveal" style="margin-top:40px; padding:0;">
-        <div style="padding:24px 32px; border-bottom:2px solid var(--border); background:var(--bg-grid);">
-          <h3 style="font-size:1.2rem; text-transform:uppercase;" data-t="pricing_additional_title">Biaya Modul Tambahan
-          </h3>
-        </div>
-        <div style="padding:32px; display:grid; grid-template-columns:1fr 1fr; gap:32px;">
-          <div>
-            <h4 style="font-family:'Space Grotesk',sans-serif; margin-bottom:8px;" data-t="pricing_revisi_title">[
-              REVISI ]</h4>
-            <p style="color:var(--text-muted); font-size:0.95rem;" data-t="pricing_revisi_desc">Perubahan di luar
-              lingkup awal atau setelah batas
-              persetujuan: <strong>+ IDR 30.000 / revisi</strong></p>
-          </div>
-          <div>
-            <h4 style="font-family:'Space Grotesk',sans-serif; margin-bottom:8px;" data-t="pricing_halaman_title">[
-              HALAMAN TAMBAHAN ]</h4>
-            <p style="color:var(--text-muted); font-size:0.95rem;" data-t="pricing_halaman_desc">Ekspansi struktur per
-              satu halaman, harga mulai dari:
-              <strong>+ IDR 60.000 / halaman</strong> (disesuaikan tingkat kesulitan)
-            </p>
-          </div>
-        </div>
-      </div>
+
 
       <!-- Tabel Hosting -->
       <div class="wf-box reveal" style="margin-top:40px; padding:0; overflow:hidden;">
@@ -540,15 +523,22 @@
             <tbody>
               <tr style="border-bottom:1px solid var(--border);">
                 <td style="padding:16px 32px; font-weight:600;" data-t="pricing_table_setup">Biaya Setup Awal</td>
-                <td style="padding:16px 32px; border-left:2px solid var(--border);">IDR 80.000</td>
-                <td style="padding:16px 32px; border-left:2px solid var(--border); font-weight:700;">IDR 350.000</td>
+                <td style="padding:16px 32px; border-left:2px solid var(--border);">IDR 150.000 <br><span style="font-size:0.8em; color:var(--text-muted); font-weight:normal;" data-t="pricing_setup_bonus">(Gratis hosting 3 bulan)</span></td>
+                <td style="padding:16px 32px; border-left:2px solid var(--border); font-weight:700;">IDR 400.000 <br><span style="font-size:0.8em; color:var(--text-muted); font-weight:normal;" data-t="pricing_setup_bonus">(Gratis hosting 3 bulan)</span></td>
               </tr>
               <tr style="border-bottom:1px solid var(--border);">
-                <td style="padding:16px 32px; font-weight:600;" data-t="pricing_table_annual">Biaya Tahunan</td>
+                <td style="padding:16px 32px; font-weight:600;" data-t="pricing_table_annual">Biaya Tahunan (Domain)</td>
                 <td style="padding:16px 32px; border-left:2px solid var(--border); font-weight:700;"
-                  data-t="pricing_random_annual">IDR 150.000 / thn</td>
-                <td style="padding:16px 32px; border-left:2px solid var(--border); font-weight:700;">IDR 440.000 / thn
+                  data-t="pricing_random_annual">IDR 300.000 / thn</td>
+                <td style="padding:16px 32px; border-left:2px solid var(--border); font-weight:700;">IDR 500.000 / thn
                 </td>
+              </tr>
+              <tr style="border-bottom:1px solid var(--border);">
+                <td style="padding:16px 32px; font-weight:600;" data-t="pricing_table_monthly">Biaya Bulanan (Hosting)</td>
+                <td style="padding:16px 32px; border-left:2px solid var(--border); font-weight:700;"
+                  data-t="pricing_table_monthly_val">IDR 20.000 / bln</td>
+                <td style="padding:16px 32px; border-left:2px solid var(--border); font-weight:700;"
+                  data-t="pricing_table_monthly_val">IDR 20.000 / bln</td>
               </tr>
               <tr style="border-bottom:1px solid var(--border);">
                 <td style="padding:16px 32px; font-weight:600;" data-t="pricing_table_example">Contoh</td>
@@ -559,7 +549,7 @@
                   style="padding:16px 32px; border-left:2px solid var(--border); color:var(--text-muted); font-family:monospace; font-size:0.9rem;">
                   merek.com</td>
               </tr>
-              <tr style="border-bottom:1px solid var(--border); background:var(--bg-grid);">
+              <tr style="border-bottom:1px solid var(--border);">
                 <td style="padding:16px 32px; font-weight:700; font-size:0.9rem;" data-t="pricing_table_pros">✓
                   Kelebihan</td>
                 <td style="padding:16px 32px; border-left:2px solid var(--border); font-size:0.88rem; line-height:2.2;"
@@ -2272,9 +2262,9 @@
 
       // Determine the base crossed price
       let baseCross = 0;
-      if (pkg === 'a') baseCross = 250;
-      if (pkg === 'b') baseCross = 450;
-      if (pkg === 'c') baseCross = 900;
+      if (pkg === 'a') baseCross = 500;
+      if (pkg === 'b') baseCross = 1000;
+      if (pkg === 'c') baseCross = 1500;
 
       if (!amountElem) return;
 
@@ -2303,8 +2293,8 @@
         amountElem.innerText = (baseVal + extraPrice) + 'K+';
 
         let extraCross = extraPrice;
-        if (extraPrice === 50) extraCross = 80;
-        else if (extraPrice === 300 || extraPrice === 320 || extraPrice === 350) extraCross = 350;
+        if (extraPrice === 100 || extraPrice === 80 || extraPrice === 50) extraCross = 150;
+        else if (extraPrice === 400 || extraPrice === 350 || extraPrice === 300) extraCross = 400;
         if (crossElem) crossElem.innerText = (baseCross + extraCross) + 'K+';
       }
     }
