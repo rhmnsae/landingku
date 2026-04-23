@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <meta name="robots" content="index, follow" />
   <meta name="theme-color" content="#ffffff" />
+  <meta name="rating" content="general" />
+  <meta name="revisit-after" content="7 days" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -202,7 +204,7 @@
 <body>
 
   <!-- NAVBAR -->
-  <nav class="navbar" id="navbar">
+  <nav class="navbar" id="navbar" aria-label="Navigasi Utama">
     <div class="container nav-inner">
       <a href="#hero" class="nav-logo">LandingKu</a>
       <ul class="nav-links">
@@ -359,10 +361,10 @@
           <div
             style="font-size:0.7rem; font-weight:700; margin:16px 0 8px; letter-spacing:0px; color:var(--text-muted);"
             data-t="price_bundle_label">+ BUNDLING (DISKON SETUP HOSTING + DOMAIN):</div>
-          <a href="javascript:void(0)" onclick="toggleBundle('a', 300, 100, this)" class="btn btn-bundle"
+          <a href="#harga" role="button" onclick="toggleBundle('a', 300, 100, this); return false;" class="btn btn-bundle"
             style="font-size:0.75rem; padding:8px; margin-bottom:8px; display:block; background:transparent; color:#dc2626; border:2px solid #dc2626;"
             data-t="price_a_cta_random">+ Domain Perusahaan (<s>150K</s> 100K)</a>
-          <a href="javascript:void(0)" onclick="toggleBundle('a', 300, 400, this)" class="btn btn-bundle"
+          <a href="#harga" role="button" onclick="toggleBundle('a', 300, 400, this); return false;" class="btn btn-bundle"
             style="font-size:0.75rem; padding:8px; display:block; margin-bottom:8px; background:transparent; color:#dc2626; border:2px solid #dc2626;"
             data-t="price_a_cta_custom">+ Domain .com/.id/.net (400K)</a>
           <div style="font-size:0.65rem; font-style:italic; margin-bottom:16px; color:var(--text-muted); text-align:center;" data-t="price_bundle_note">*Hanya biaya setup awal, gratis hosting 3 bulan</div>
@@ -394,10 +396,10 @@
           <div
             style="font-size:0.7rem; font-weight:700; margin:16px 0 8px; letter-spacing:0px; color:var(--text-muted);"
             data-t="price_bundle_label">+ BUNDLING (DISKON SETUP HOSTING + DOMAIN):</div>
-          <a href="javascript:void(0)" onclick="toggleBundle('b', 500, 80, this)" class="btn btn-bundle"
+          <a href="#harga" role="button" onclick="toggleBundle('b', 500, 80, this); return false;" class="btn btn-bundle"
             style="font-size:0.75rem; padding:8px; margin-bottom:8px; display:block; background:transparent; color:#dc2626; border:2px solid #dc2626;"
             data-t="price_b_cta_random">+ Domain Perusahaan (<s>150K</s> 80K)</a>
-          <a href="javascript:void(0)" onclick="toggleBundle('b', 500, 350, this)" class="btn btn-bundle"
+          <a href="#harga" role="button" onclick="toggleBundle('b', 500, 350, this); return false;" class="btn btn-bundle"
             style="font-size:0.75rem; padding:8px; display:block; margin-bottom:8px; background:transparent; color:#dc2626; border:2px solid #dc2626;"
             data-t="price_b_cta_custom">+ Domain .com/.id/.net (<s style='opacity:0.6;font-size:0.9em;'>400K</s>
             350K)</a>
@@ -426,10 +428,10 @@
           <div
             style="font-size:0.7rem; font-weight:700; margin:16px 0 8px; letter-spacing:0px; color:var(--text-muted);"
             data-t="price_bundle_label">+ BUNDLING (DISKON SETUP HOSTING + DOMAIN):</div>
-          <a href="javascript:void(0)" onclick="toggleBundle('c', 900, 50, this)" class="btn btn-bundle"
+          <a href="#harga" role="button" onclick="toggleBundle('c', 900, 50, this); return false;" class="btn btn-bundle"
             style="font-size:0.75rem; padding:8px; margin-bottom:8px; display:block; background:transparent; color:#dc2626; border:2px solid #dc2626;"
             data-t="price_c_cta_random">+ Domain Perusahaan (<s>150K</s> 50K)</a>
-          <a href="javascript:void(0)" onclick="toggleBundle('c', 900, 300, this)" class="btn btn-bundle"
+          <a href="#harga" role="button" onclick="toggleBundle('c', 900, 300, this); return false;" class="btn btn-bundle"
             style="font-size:0.75rem; padding:8px; display:block; margin-bottom:8px; background:transparent; color:#dc2626; border:2px solid #dc2626;"
             data-t="price_c_cta_custom">+ Domain .com/.id/.net (<s style='opacity:0.6;font-size:0.9em;'>400K</s>
             300K)</a>
@@ -2191,7 +2193,7 @@
   </section>
 
   <!-- FOOTER -->
-  <footer>
+  <footer role="contentinfo">
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
